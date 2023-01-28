@@ -21,6 +21,6 @@ urlpatterns = [
     path('', mainapp.index, name='index'),
 
     path('admin/', admin.site.urls),
-    # path('products/', mainapp.products, name='products'),
+    path('products/', mainapp.products, name='products'),
     # path('contacts/', mainapp.contacts, name='contacts'),
 ]
